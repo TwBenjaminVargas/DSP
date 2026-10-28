@@ -15,7 +15,7 @@ function fft_f (sig, fs)
   title('Amplitud en frecuencia (dB)'); xlabel('f (Hz)'); ylabel('dB'); grid on
 end
 
-archivo = 'iir_out_pasaaltos_senos.txt';
+archivo = 'iir_out_rechazabanda_senos.txt';
 
 load('entrada.mat');
 [t, y] = textread(archivo, '%f %f', 'headerlines', 1);

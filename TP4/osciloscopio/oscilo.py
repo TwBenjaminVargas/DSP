@@ -5,7 +5,7 @@ from pyqtgraph.Qt import QtCore, QtWidgets
 
 # Configuración del puerto serie en Linux
 SERIAL_PORT = '/dev/ttyUSB1'  # Reemplazar por '/dev/ttyACM0' si corresponde
-BAUD_RATE = 115200
+BAUD_RATE = 921600
 BUFFER_SIZE = 200             # Cantidad de muestras visibles en pantalla
 
 # Inicializar conexión con la ESP32
